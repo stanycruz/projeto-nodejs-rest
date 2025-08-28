@@ -18,15 +18,16 @@
 </p>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
+  <a href="#principais-recursos">Principais recursos</a> •
+  <a href="#como-usar">Como usar</a> •
+  <a href="#baixar">Baixar</a> •
+  <a href="#creditos">Créditos</a> •
+  <a href="#relacionados">Relacionados</a> •
+  <a href="#licenca">Licença</a>
 </p>
 
-## Key Features
+<a id="principais-recursos"></a>
+## Principais recursos
 
 - **CRUD de Atendimentos**: endpoints REST para criar, listar, buscar por id, atualizar parcialmente e excluir atendimentos.
 - **Validações**:
@@ -37,7 +38,8 @@
 - **Body parsing**: suporte a `application/json` e `application/x-www-form-urlencoded`.
 - **Configuração simples**: servidor inicia em `http://localhost:3000`.
 
-## How To Use
+<a id="como-usar"></a>
+## Como usar
 
 Para clonar e executar esta API, você precisará do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) e do [MySQL](https://www.mysql.com/) instalados.
 
@@ -66,7 +68,8 @@ npm start
 > Nota
 > As credenciais padrão do MySQL estão em `infrastructure/conexao.js` (host: `localhost`, porta: `3306`, usuário: `root`, senha: `admin`, database: `agenda-petshop`). Altere conforme seu ambiente.
 
-## Endpoints
+<a id="endpoints-da-api"></a>
+## Endpoints da API
 
 Base URL: `http://localhost:3000`
 
@@ -124,6 +127,7 @@ Base URL: `http://localhost:3000`
     ```
   - Respostas: `200 OK` com `{ id }`, ou `400 Bad Request` em caso de erro.
 
+<a id="estrutura-do-projeto"></a>
 ## Estrutura do projeto
 
 ```
@@ -139,7 +143,8 @@ models/
 index.js                   # Ponto de entrada do servidor (porta 3000)
 ```
 
-## Download
+<a id="baixar"></a>
+## Baixar
 
 Este projeto é distribuído como código-fonte. Para obter a última versão, **clone o repositório**:
 
@@ -147,6 +152,7 @@ Este projeto é distribuído como código-fonte. Para obter a última versão, *
 git clone https://github.com/stanycruz/projeto-nodejs-rest
 ```
 
+<a id="scripts"></a>
 ## Scripts
 
 - **start**: inicia o servidor com `nodemon` (hot-reload em desenvolvimento).
@@ -155,7 +161,8 @@ git clone https://github.com/stanycruz/projeto-nodejs-rest
 npm start
 ```
 
-## Credits
+<a id="creditos"></a>
+## Créditos
 
 Esta API utiliza os seguintes pacotes open source:
 
@@ -166,12 +173,14 @@ Esta API utiliza os seguintes pacotes open source:
 - [mysql](https://www.npmjs.com/package/mysql)
 - [moment](https://momentjs.com/)
 
-## Related
+<a id="relacionados"></a>
+## Relacionados
 
 - Documentação do [MySQL](https://dev.mysql.com/doc/)
 - Guia do [Express](https://expressjs.com/pt-br/)
 
-## License
+<a id="licenca"></a>
+## Licença
 
 ISC
 
